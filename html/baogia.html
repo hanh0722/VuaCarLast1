@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Báo giá</title>
+    <!-- Bootstrap CSS -->
+    <!-- https://cdnjs.com/libraries/twitter-bootstrap/5.0.0-beta1 -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!-- Icons: https://getbootstrap.com/docs/5.0/extend/icons/ -->
+    <!-- https://cdnjs.com/libraries/font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/muabanoto.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/baogia.css">
+  </head>
+  <body>
+    <div id="Header"></div>
+    <div class="container-fluid">
+      <!-- end header -->
+      <main>
+        <div class="container">
+          
+          <div class="lt">
+            <div class="row baogia_list_lt">
+            
+              <div class="col-xs-4 col-4 col-sm-4 col-md-4 col-lg-4 ">
+                <div class="baogia_item_lt baogia_click baogia_item_lt1">
+                  <p><a href="#uutien">BÁO GIÁ TIN ƯU TIÊN</a></p>
+                  <span class=""></span>
+                </div>
+              </div>
+              <div class="col-xs-4 col-4 col-sm-4 col-md-4 col-lg-4">
+                <div class="baogia_item_lt baogia_item_lt2">
+                  <p><a href="#goitin">BÁO GIÁ GÓI TIN</a></p>
+                  <span></span>
+                </div>
+              </div>
+              <div class="col-xs-4 col-4 col-sm-4 col-md-4 col-lg-4">
+                <div class="baogia_item_lt baogia_item_lt3">
+                  <p><a href="#tinle">BÁO GIÁ TIN LẺ</a></p>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <div class="uutien_lt hien">
+              <table>
+               
+                  <thead>
+                    <tr>
+                      <th>Tỉnh thành</th>
+                      <th>Hà Nội, Hồ Chí Minh</th>
+                      <th>Tỉnh thành khác</th>
+                    </tr>
+                  </thead>
+                <tbody>
+                  <tr>
+                    <td>Tiêu đề</td>
+                    <td>
+                        Hiển thị 3 vị trí đầu tiên theo tỉnh thành <br>
+                        và hãng xe của tin rao
+                    </td>
+                    <td>
+                        Hiển thị 3 vị trí đầu tiên theo tỉnh thành<br>
+                        và hãng xe của tin rao
+                    </td>
+    
+                  </tr>
+                  <tr>
+                      <td>Phí 1 ngày</td>
+                      <td><span class="font-700 color-green">200,000 VND</span></td>
+                      <td><span class="font-700 color-green">150,000 VND</span></td>
+    
+                  </tr>
+                  <tr>
+                      <td>Thời gian hiển thị tối thiểu</td>
+                      <td>3 ngày</td>
+                      <td>3 ngày</td>
+    
+                  </tr>
+                  <tr>
+                      <td>Thời gian hiển thị tối đa</td>
+                      <td>Không giới hạn</td>
+                      <td>Không giới hạn</td>
+    
+                  </tr>
+                  <tr>
+                      <td>Up tin miễn phí</td>
+                      <td>Không</td>
+                      <td>Không</td>
+    
+                  </tr>
+                  <tr>
+                      <td>Chờ kiểm duyệt</td>
+                      <td>Có</td>
+                      <td>Có</td>
+    
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!-- end uutien_lt -->
+            <div class="goitin_lt">
+              <table>
+                <tbody>
+                  <tr>
+                    <th width="25%">Loại gói</th>
+                    <th width="25%" class="bg-success">Gói ưu đãi 1</th>
+                    <th width="25%" class="bg-info">Gói ưu đãi 2</th>
+                    <th width="25%" class="">Gói ưu đãi 3</th>
+                  </tr>
+                  <tr>
+                    <td>Giá</td>
+                    <td>
+                        <span class="font-700 color-green">1 triệu - &lt; 2 triệu</span> <br>
+                    </td>
+                    <td>
+                        <span class="font-700 color-green">2 triệu - &lt; 6 triệu</span> <br>
+                    </td>
+                    <td>
+                        <span class="font-700 color-green">Từ 6 triệu trở lên</span> <br>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Thời hạn sử dụng gói</td>
+                    <td>12 tháng</td>
+                    <td>12 tháng</td>
+                    <td>12 tháng</td>
+                  </tr>
+                  <tr>
+                    <td>Ưu đãi hoàn tiền</td>
+                    <td>10%</td>
+                    <td>15%</td>
+                    <td>20%</td>
+                  </tr>
+                  <tr>
+                    <td>Thời gian sử dụng ưu đãi</td>
+                    <td>1 tháng</td>
+                    <td>2 tháng <br><span class="red font-12">* Cứ mỗi 2 triệu được cộng thêm 1 tháng</span></td>
+                    <td>3 tháng <br><span class="red font-12">* Cứ mỗi 2 triệu được cộng thêm 1 tháng</span></td>
+                  </tr>
+  
+                </tbody>
+              </table>
+            </div>
+            <!-- end goitin_lt -->
+            <div class="tinle_lt">
+              <table>
+                <tbody>
+                  <tr>
+                      <th width="20%">Loại tin</th>
+                      <th width="20%" class="bg-red"> <img src="https://img1.oto.com.vn/Static/Images/v3/vippro.png" class="icon-Premium "> VIP đặc biệt</th>
+                      <th width="20%" class="bg-red">VIP 1</th>
+                      <th width="20%">VIP 2</th>
+                      <th width="20%" class="bg-secondary">Tin thường</th>
+                  </tr>
+                  <tr>
+                      <td>Mô tả tin</td>
+                      <td>Hiển thị trên tất cả các loại tin khác</td>
+                      <td>
+                          Hiển thị dưới <br>
+                          các tin Vip Đặc biệt và trên các tin Vip 2, Tin thường
+                      </td>
+                      <td>
+                          Hiển thị dưới các <br>
+                          tin Vip Đặc biệt, Vip 1 và trên Tin thường
+                      </td>
+                      <td>Hiển thị dưới tất cả các loại tin khác</td>
+                  </tr>
+                  <tr>
+                      <td>Phí 1 ngày</td>
+                      <td><span class="font-700 color-green">52,000 VND</span></td>
+                      <td><span class="font-700 color-green">18,000 VND</span></td>
+                      <td><span class="font-700 color-green">5,000 VND</span></td>
+                      <td><span class="font-700 color-green">1,000 VND</span></td>
+                  </tr>
+                  <tr>
+                      <td>Phí 30 ngày</td>
+                      <td><span class="font-700 color-green">1,560,000 VND</span></td>
+                      <td><span class="font-700 color-green">540,000 VND</span></td>
+                      <td><span class="font-700 color-green">150,000 VND</span></td>
+                      <td><span class="font-700 color-green">30,000 VND</span></td>
+                  </tr>
+                  <tr>
+                      <td>Thời gian hiển thị tối thiểu</td>
+                      <td>5 ngày</td>
+                      <td>7 ngày</td>
+                      <td>7 ngày</td>
+                      <td>7 ngày</td>
+                  </tr>
+                  <tr>
+                      <td>Thời gian hiển thị tối đa</td>
+                      <td>Không giới hạn</td>
+                      <td>Không giới hạn</td>
+                      <td>Không giới hạn</td>
+                      <td>Không giới hạn</td>
+                  </tr>
+                  <tr>
+                      <td>Up tin miễn phí</td>
+                      <td>5 ngày/ lần</td>
+                      <td>5 ngày/ lần</td>
+                      <td>5 ngày/ lần</td>
+                      <td>5 ngày/ lần</td>
+                  </tr>
+                  <tr>
+                      <td>Chờ kiểm duyệt</td>
+                      <td>Không</td>
+                      <td>Không</td>
+                      <td>Có</td>
+                      <td>Có</td>
+                  </tr>                     
+  
+  
+                </tbody>
+              </table>
+            </div>
+            <!-- end tinle_lt -->
+          </div>
+          <!-- end lt -->
+          <div class="baogia_mb">
+            
+            <div class="row">
+              
+              <div class="col-xs-4 col-4 col-sm-4 col-md-4 col-lg-4">
+                <div class="baogia_item_lt baogia_click baogia_item_lt1">
+                  <p><a href="#uutien">TIN ƯU TIÊN</a></p>
+                  <span class=""></span>
+                </div>
+              </div>
+              <div class="col-xs-4 col-4 col-sm-4 col-md-4 col-lg-4">
+                <div class="baogia_item_lt baogia_item_lt2">
+                  <p><a href="#goitin">GÓI TIN</a></p>
+                  <span></span>
+                </div>
+              </div>
+              <div class="col-xs-4 col-4 col-sm-4 col-md-4 col-lg-4">
+                <div class="baogia_item_lt baogia_item_lt3">
+                  <p><a href="#tinle">TIN LẺ</a></p>
+                  <span></span>
+                </div>
+              </div>
+              
+            </div>
+            <div class="uutien_mb hien">
+              <div class="bgtinuutien box" style="display: block;">
+                <ul>
+                    <li>
+                        <label>Tiêu đề</label>
+                        <span>Màu đỏ có huy hiệu ngôi sao </span>
+                    </li>
+                    <li class="even">
+                        <label>Vị trí</label>
+                        <span>Hiển thị 3 vị trí đầu tiên và trên tất cả các loại tin rao</span>
+                    </li>
+                    <li>
+                        <label>Phí đăng tin</label>
+                        <span>
+                            <strong class="price">200,000 VNĐ/ngày</strong> (Hà Nội và HCM)<br>
+                            <strong class="price">150,000 VNĐ/ngày</strong> (Tỉnh thành khác)
+                        </span>
+                    </li>
+                    <li class="even">
+                        <label>
+                            Thời gian<br> hiển thị tối thiểu
+                        </label>
+                        <span>3 ngày</span>
+                    </li>
+                    <li>
+                        <label>
+                            Thời gian<br> hiển thị tối đa
+                        </label>
+                        <span>Không giới hạn</span>
+                    </li>
+                    <li class="even">
+                        <label>
+                            Up tin miễn phí
+                        </label>
+                        <span>Không</span>
+                    </li>
+                    <li>
+                        <label>Chờ kiểm duyệt</label>
+                        <span>Có</span>
+                    </li>
+                </ul>
+              </div>
+            </div>
+            <!-- end uutien_mb -->
+            <div class="goitin_mb">
+              <div class="goitin_click">
+                <div class="goitin_click_one">
+                  <span>Gói ưu đãi 1</span>
+                  <span><i class="fas fa-angle-down"></i></span>
+                </div>
+                <div class="goitin_hv">
+                  <ul>
+                      <li>
+                          <label>Giá</label>
+                          <span>
+                              <strong class="price">1 triệu  - &lt; 2 triệu</strong><br>
+                          </span>
+                      </li>
+                      <li class="even">
+                          <label>Thời hạn sử dụng gói</label>
+                          <span>12 tháng</span>
+                      </li>
+                      <li>
+                          <label>Ưu đãi hoàn tiền</label>
+                          <span>
+                              10%
+                          </span>
+                      </li>
+                      <li class="even">
+                          <label>
+                              Thời gian sử dụng ưu đãi
+                          </label>
+                          <span>1 tháng</span>
+                      </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="goitin_click">
+                <div class="goitin_click_one goitin_click_two">
+                  <span>Gói ưu đãi 2</span>
+                  <span><i class="fas fa-angle-down"></i></span>
+                </div>
+                <div class="goitin_hv">
+                  <ul>
+                    <li>
+                        <label>Giá</label>
+                        <span>
+                            <strong class="price">2 triệu - &lt; 6 triệu</strong><br>
+                        </span>
+                    </li>
+                    <li class="even">
+                        <label>Thời hạn sử dụng gói</label>
+                        <span>12 tháng</span>
+                    </li>
+                    <li>
+                        <label>Ưu đãi hoàn tiền</label>
+                        <span>
+                            15%
+                        </span>
+                    </li>
+                    <li class="even">
+                        <label>
+                            Thời gian sử dụng ưu đãi
+                        </label>
+                        <span>
+                            2 tháng<br>
+                            <b style="font-weight:normal; font-size:12px; color:red">* Cứ mỗi 2 triệu được cộng thêm 1 tháng</b>
+                        </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="goitin_click">
+                <div class="goitin_click_one goitin_click_three">
+                  <span>Gói ưu đãi 3</span>
+                  <span><i class="fas fa-angle-down"></i></span>
+                </div>
+                <div class="goitin_hv">
+                  <ul>
+                    <li>
+                        <label>Giá</label>
+                        <span>
+                            <strong class="price">Từ 6 triệu trở lên</strong><br>
+                        </span>
+                    </li>
+                    <li class="even">
+                        <label>Thời hạn sử dụng gói</label>
+                        <span>12 tháng</span>
+                    </li>
+                    <li>
+                        <label>Ưu đãi hoàn tiền</label>
+                        <span>
+                            20%
+                        </span>
+                    </li>
+                    <li class="even">
+                        <label>
+                            Thời gian sử dụng ưu đãi
+                        </label>
+                        <span>
+                            3 tháng<br>
+                            <b style="font-weight:normal; font-size:12px; color:red">* Cứ mỗi 2 triệu được cộng thêm 1 tháng</b>
+                        </span>
+                    </li>
+                </ul>
+                </div>
+              </div>
+            </div>
+            <!-- goitin_mb -->
+            <div class="tinle_mb">
+              <div class="goitin_click">
+                <div class="goitin_click_one bg-danger">
+                  <span><i style="color: yellow;" class="fas fa-star"></i> VIP ĐẶC BIỆT</span>
+                  <span><i class="fas fa-angle-down"></i></span>
+                </div>
+                <div class="goitin_hv">
+                  <ul>
+                    <li>
+                        <label>Tiêu đề</label>
+                        <span>Màu đỏ có huy hiệu ngôi sao </span>
+                    </li>
+                    <li class="even">
+                        <label>Vị trí</label>
+                        <span></span>
+                    </li>
+                    <li>
+                        <label>Phí 1 ngày</label>
+                        <span class="price">
+                            52,000
+                        </span>
+                    </li>
+                    <li class="even">
+                        <label>Phí 30 ngày</label>
+                        <span class="price">
+                            1,560,000
+                        </span>
+                    </li>
+                    <li>
+                        <label>
+                            Thời gian hiển thị tối thiểu
+                        </label>
+                        <span>
+                            5 ngày
+                        </span>
+                    </li>
+                    <li class="even">
+                        <label>
+                            Thời gian hiển thị tối đa
+                        </label>
+                        <span>
+                            Không giới hạn
+                        </span>
+                    </li>
+                    <li>
+                        <label>
+                            Up tin miễn phí
+                        </label>
+                        <span>
+                            5 ngày/lần
+                        </span>
+                    </li>
+                    <li class="even">
+                        <label>Chờ kiểm duyệt</label>
+                        <span>Không</span>
+                    </li>
+                </ul>
+                </div>
+              </div>
+              <div class="goitin_click">
+                <div class="goitin_click_one  bg-warning">
+                  <span>VIP 1</span>
+                  <span><i class="fas fa-angle-down"></i></span>
+                </div>
+                <div class="goitin_hv">
+                  <ul>
+                    <li>
+                        <label>Tiêu đề</label>
+                        <span>Màu đỏ</span>
+                    </li>
+                    <li class="even">
+                        <label>Vị trí</label>
+                        <span>Hiển thị dưới các tin Ưu tiên, VIP Đặc biệt và trên các tin VIP 2, Tin thường</span>
+                    </li>
+                    <li>
+                        <label>Phí 1 ngày</label>
+                        <span class="price">
+                            18,000
+                        </span>
+                    </li>
+                    <li class="even">
+                        <label>Phí 30 ngày</label>
+                        <span class="price">
+                            540,000
+                        </span>
+                    </li>
+                    <li>
+                        <label>
+                            Thời gian hiển thị tối thiểu
+                        </label>
+                        <span>
+                            7 ngày
+                        </span>
+                    </li>
+                    <li class="even">
+                        <label>
+                            Thời gian hiển thị tối đa
+                        </label>
+                        <span>
+                            Không giới hạn
+                        </span>
+                    </li>
+                    <li>
+                        <label>
+                            Up tin miễn phí
+                        </label>
+                        <span>
+                            5 ngày/lần
+                        </span>
+                    </li>
+                    <li class="even">
+                        <label>Chờ kiểm duyệt</label>
+                        <span>Không</span>
+                    </li>
+                </ul>
+                </div>
+              </div>
+              <div class="goitin_click">
+                <div class="goitin_click_one  bg-info">
+                  <span>VIP 2</span>
+                  <span><i class="fas fa-angle-down"></i></span>
+                </div>
+                <div class="goitin_hv">
+                  <ul>
+                    <li>
+                        <label>Tiêu đề</label>
+                        <span>Màu cam</span>
+                    </li>
+                    <li class="even">
+                        <label>Vị trí</label>
+                        <span>Hiển thị dưới các tin Ưu tiên, VIP Đặc biệt, VIP 1 và trên Tin thường</span>
+                    </li>
+                    <li>
+                        <label>Phí 1 ngày</label>
+                        <span class="price">
+                            5,000
+                        </span>
+                    </li>
+                    <li class="even">
+                        <label>Phí 30 ngày</label>
+                        <span class="price">
+                            150,000
+                        </span>
+                    </li>
+                    <li>
+                        <label>
+                            Thời gian hiển thị tối thiểu
+                        </label>
+                        <span>
+                            7 ngày
+                        </span>
+                    </li>
+                    <li class="even">
+                        <label>
+                            Thời gian hiển thị tối đa
+                        </label>
+                        <span>
+                            Không giới hạn
+                        </span>
+                    </li>
+                    <li>
+                        <label>
+                            Up tin miễn phí
+                        </label>
+                        <span>
+                            5 ngày/lần
+                        </span>
+                    </li>
+                    <li class="even">
+                        <label>Chờ kiểm duyệt</label>
+                        <span>Có</span>
+                    </li>
+                </ul>
+                </div>
+              </div>
+              <div class="goitin_click">
+                <div class="goitin_click_one bg-success">
+                  <span>TIN THƯỞNG</span>
+                  <span><i class="fas fa-angle-down"></i></span>
+                </div>
+                <div class="goitin_hv">
+                  <ul>
+                    <li>
+                        <label>Tiêu đề</label>
+                        <span>Màu xanh</span>
+                    </li>
+                    <li class="even">
+                        <label>Vị trí</label>
+                        <span>Hiển thị dưới tất cả các loại tin khác</span>
+                    </li>
+                    <li>
+                        <label>Phí 1 ngày</label>
+                        <span class="price">
+                            1,000
+                        </span>
+                    </li>
+                    <li class="even">
+                        <label>Phí 30 ngày</label>
+                        <span class="price">
+                            30,000
+                        </span>
+                    </li>
+                    <li>
+                        <label>
+                            Thời gian hiển thị tối thiểu
+                        </label>
+                        <span>
+                            7 ngày
+                        </span>
+                    </li>
+                    <li class="even">
+                        <label>
+                            Thời gian hiển thị tối đa
+                        </label>
+                        <span>
+                            Không giới hạn
+                        </span>
+                    </li>
+                    <li>
+                        <label>
+                            Up tin miễn phí
+                        </label>
+                        <span>
+                            5 ngày/lần
+                        </span>
+                    </li>
+                    <li class="even">
+                        <label>Chờ kiểm duyệt</label>
+                        <span>Có</span>
+                    </li>
+                </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end baogia_mb -->
+          <div class="baogia_content">
+            <p style="color: red;">* Lưu ý:</p>
+            <p>Tin ưu tiên chỉ có 3 vị trí đầu tiên khi tìm kiếm theo Tỉnh thành và Hãng xe nhất định. Trường hợp đã đủ 3 vị trí, Quý khách vui lòng xếp lượt chờ hiển thị. Chúng tôi sẽ thông báo tới Quý khách thời gian dự kiến hiển thị của tin rao.</p>
+            <h5>HƯỚNG DẪN THANH TOÁN</h5>
+            <p>Quý khách có nhu cầu thanh toán dịch vụ, vui lòng chuyển khoản theo thông tin sau:</p>
+
+            <p style="font-weight: bold">Đối với khách hàng sinh sống, làm việc tại miền Nam:</p>
+
+            <p>Ngân hàng Vietcombank chi nhánh Sài Gòn</p>
+
+            <p>STK: 0331000444295</p>
+
+            <p>Người thụ hưởng: Chi nhánh Công ty Cổ phần Nextgen Việt Nam</p>
+
+            <p style="font-weight: bold">Đối với khách hàng sinh sống, làm việc tại miền Bắc:</p>
+
+            <p>Ngân hàng Vietcombank chi nhánh Thành Công</p>
+
+            <p>Người thụ hưởng: Công ty Cổ phần Nextgen Việt Nam</p>
+            <p>Ngoài ra, Quý khách cũng có thể ghé thăm văn phòng của Oto.com.vn để nộp tiền mặt hoặc nhân viên của chúng tôi sẵn sàng hỗ trợ đến tận nơi thu phí nếu Quý khách sinh sống, làm việc tại nội thành Hà Nội, Hồ Chí Minh.</p>
+
+          </div>
+        </div>
+        <!-- end container -->
+        <div class="back-to-top">
+          <i class="fas fa-arrow-up"></i>
+        </div>
+      </main>
+      <!-- end main -->
+    </div>
+    <!-- end container-fluid -->
+    <!-- end footer -->
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <div id="footer"></div>
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="../js/codinhmenu.js"></script>
+    <script src="../js/index.js"></script>
+    <script src="../js/muaban.js"></script>
+    <script src="../js/header1.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/footer.js"></script>
+    <script src="../js/baogia.js"></script>
+    <script src="../js/get_data.js"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <!-- https://cdnjs.com/libraries/popper.js/2.5.4 -->
+    <!-- <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"
+    ></script> -->
+
+    <!-- More: https://getbootstrap.com/docs/5.0/getting-started/introduction/ -->
+    <script>
+      function myFunction() {
+        // Declare variables
+        var input, filter, ul, li, a, i, txtValue;
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("myUL");
+        li = document.querySelectorAll("#myUL li");
+
+        // Loop through all list items, and hide those who don't match the search query
+        for (i = 0; i < li.length; i++) {
+          a = li[i].getElementsByTagName("a")[0];
+          txtValue = a.textContent || a.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+          } else {
+            li[i].style.display = "none";
+          }
+        }
+      }
+      function myFunction1() {
+        // Declare variables
+        var input, filter, ul, li, a, i, txtValue;
+        input = document.getElementById("myInput1");
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("myUL1");
+        li = document.querySelectorAll("#myUL1 li");
+
+        // Loop through all list items, and hide those who don't match the search query
+        for (i = 0; i < li.length; i++) {
+          a = li[i].getElementsByTagName("a")[0];
+          txtValue = a.textContent || a.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+          } else {
+            li[i].style.display = "none";
+          }
+        }
+      }
+      function myFunction2() {
+        // Declare variables
+        var input, filter, ul, li, a, i, txtValue;
+        input = document.getElementById("myInput2");
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("myUL2");
+        li = document.querySelectorAll("#myUL2 li");
+
+        // Loop through all list items, and hide those who don't match the search query
+        for (i = 0; i < li.length; i++) {
+          a = li[i].getElementsByTagName("a")[0];
+          txtValue = a.textContent || a.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+          } else {
+            li[i].style.display = "none";
+          }
+        }
+      }
+    </script>
+  </body>
+</html>

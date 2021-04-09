@@ -1,0 +1,70 @@
+.box-hoTro{
+    box-shadow: 5px 5px 30px #888888;
+    padding: 50px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+.box-hoTro input:active,
+.box-hoTro textarea:active{
+    background-color: #ffffff;
+}
+.box-hoTro textarea{
+    height: 100px;
+}
+.row2 img{
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 20px;
+}
+.container{
+    margin-top: 5%;
+}
+.row2{
+    display: flex;
+    width: 100%;
+}
+.hotro-on span{
+    border: 1px solid #999999;
+    padding: 0 10px;
+    margin-right: 3px ;
+    line-height: 30px;
+    display: inline-block;
+}
+.hotro-on a{
+    border: 1px solid #999999;
+    padding: 0 10px;
+    text-decoration: none;
+    line-height: 30px;
+    display: inline-block;
+}
+.form-hotro{
+    width: 100%;
+}
+.maXacthuc{
+    width: 80%;
+}
+.btn-forget{
+    width: 50%;
+}
+.box-quenmk form{
+    padding: 5% 0%;
+}
+.container-1{
+    margin-top: 0;
+}
+.input-form-row{
+    width: 50%;
+}
+.input-form-row:focus{
+    background: #fff;
+    color: black;
+}
+@media screen and (max-width: 800px){
+    .input-form-row{
+        width: 75%;
+    }
+    .btn-forget{
+        width: 75%;
+    }
+}

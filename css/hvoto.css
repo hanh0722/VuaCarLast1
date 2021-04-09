@@ -1,0 +1,341 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.banner{
+    width: 100%;
+    height: 100%;
+    position: relative
+}
+.box-banner{
+    height: 10vh;
+    background: url(https://img1.oto.com.vn/Static/Images/hocvienoto/v2/web/logo-emazine.png) center no-repeat;
+    position: absolute;
+    top: 0;
+    z-index: 5;
+    width: 100%;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+.section-class{
+    padding: 2% 8%;
+    background-color: #E8F2FF;
+}
+.data-1{
+    padding: 2% 8%;
+}
+.content-class{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.box-follow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box-fl-1 p:first-child{
+    color: #da5427;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.box-fl-1 p:nth-child(2){
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.box-fl-1 p:last-child{
+    color: gray;
+}
+.box-2{
+    background: url(https://img1.oto.com.vn/Static/Images/hocvienoto/v2/web/bg-title.png) center no-repeat;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.box-2 p{
+    margin: 0;
+    margin-top: 5px;
+}
+.data-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-left{
+    width: 50%;
+}
+.img-left img{
+    width: 100%;
+    height: 100%;
+}
+.content-img{
+    width: 50%;
+}
+.content-img p:first-child{
+    color: #da5427;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.content-img p:last-child{
+    font-size: 1.2rem;
+}
+.bottom-data{
+    margin-bottom: 5%;
+}
+.our-product{
+    background: url(https://img1.oto.com.vn/Static/Images/hocvienoto/v2/web/bg-box.jpg) center no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding-top: 2%;
+}
+.box-title{
+    height: 20vh;
+}
+.content-our-product{
+    background: url(https://img1.oto.com.vn/Static/Images/hocvienoto/v2/web/bg-ground.png) center no-repeat;
+    height: 80vh;
+}
+.box-1-left{
+    height: 20vh;
+    background: url(https://img1.oto.com.vn/Static/Images/hocvienoto/v2/web/bg-item.png) center no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.content-our-product{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 0%;
+}
+.text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+}
+.left-content .box-1-left p:first-child{
+    width: 80%;
+    text-align: end;
+}
+.left-content .box-1-left p:last-child{
+    width: 10%;
+}
+.right-content .box-1-left{
+    background: url(https://img1.oto.com.vn/Static/Images/hocvienoto/v2/web/bg-item-r.png) center no-repeat;
+}
+.Number{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.right-content .box-1-left p:first-child{
+    width: 10%;
+}
+.right-content .box-1-left p:last-child{
+    width: 80%;
+    text-align: end;
+}
+.right-content .box-1-left .text{
+    width: 60%;
+}
+.left-content .box-1-left{
+    transform: translateX(-5%);
+}
+.next-our-product{
+    padding: 2% 8%;
+}
+.top-product-card{
+    margin: 5% 0%;
+}
+.top-product-card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card-product-1{
+    width: 32%;
+    margin: 2% 0%;
+}
+.text-card{
+    padding-top: 5%;
+    line-height: 30px;
+}
+.text-card p{
+    margin: 0;
+}
+.text-card p:first-child{
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: normal;
+    word-wrap: break-word;
+    height: 60px;
+}
+.top-product-card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+.text-card p:nth-child(2){
+    font-size: .9rem;
+    color: gray;
+}
+.text-card p:last-child{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: normal;
+    word-wrap: break-word;
+    height: 88px;
+}
+.img-card{
+    width: 100%;
+}
+.text-card a{
+    color: black;
+    text-decoration: none;
+}
+.second-nav{
+    margin: 0;
+}
+
+@media screen and (max-width: 1300px){
+    .left-content .box-1-left{
+        transform: translateX(-10%);
+    }
+    .right-content .box-1-left{
+        transform: translateX(5%);
+    }
+}
+@media screen and (max-width: 1200px) {
+    .left-content .box-1-left{
+        transform: translateX(0%);
+    }
+    .right-content .box-1-left{
+        transform: translateX(0%);
+    }
+    .content-our-product{
+        background: none;
+        display: block;
+        height: auto;
+    }
+    .text{
+        width: 30% !important;
+    }
+    .our-product{
+        height: auto;
+    }
+    .box-title{
+        height: 20vh;
+    }
+    .left-content .box-1-left p:first-child{
+        text-align: start;
+    }
+}
+@media screen and (max-width: 900px){
+    .text{
+        width: 40% !important;
+    }
+    .card-product-1{
+        width: 50%;
+    }
+    .top-product-card{
+        flex-wrap: wrap;
+    }
+    .card-product-1{
+        width: 48%;
+    }
+}
+@media screen and (max-width: 800px){
+    .content-class{
+        font-size: 1rem;
+    }
+    .box-2{
+        height: 20vh;
+        font-size: 1rem;
+        background: url(https://img1.oto.com.vn/Static/Images/hocvienoto/v2/wap/bg-title.png) center no-repeat;
+    }
+    .box-fl-1 p:first-child{
+        font-size: 2.5rem;
+    }
+    .box-fl-1{
+        width: 50%;
+        text-align: center;
+    }
+    .box-fl-1 p:last-child{
+        font-size: .8rem;
+    }
+    .section-class, .data-1{
+        padding: 2%;
+    }
+    .content-img p:first-child{
+        font-size: 1.5rem;
+    }
+    .content-img p:last-child{
+        font-size: 1rem;
+    }
+    .content-img{
+        width: 45%;
+    }
+}
+@media screen and (max-width: 700px){
+    .text{
+        width: 45% !important;
+    }
+    .box-1-left{
+        background: url(https://img1.oto.com.vn/Static/Images/hocvienoto/v2/wap/bg-item.png) center no-repeat !important;
+    }
+}
+@media screen and (max-width: 500px){
+    .content-img p:first-child{
+        font-size: 1rem;
+    }
+    .content-img p:last-child{
+        font-size: .8rem;
+    }
+    .img-left{
+        width: 50%;
+    }
+    .content-img{
+        width: 50%;
+    }
+    .data-1{
+        margin: 5% 0%;
+    }
+    .text{
+        width: 60% !important;
+        justify-content: space-between;
+    }
+    .card-product-1{
+        width: 100%;
+        margin: 10% 0%;
+    }
+    .top-product-card{
+        display: block;
+    }
+    
+}
+@media screen and (max-width: 450px){
+    .text{
+        width: 70% !important;
+    }
+    .right-content .box-1-left p:last-child{
+        width: 80%;
+    }
+}

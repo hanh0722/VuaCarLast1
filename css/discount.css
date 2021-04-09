@@ -1,0 +1,448 @@
+.box-sale{
+    height: 55vh;
+    background-image: url(https://img1.oto.com.vn/Static/Images/v3/web-banner-voucher-bg-header1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box-left-sale{
+    width: 100%;
+    height: 100%;
+    padding: 2% 5%;
+    color: white;
+}
+.box-left-sale p:first-child{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-align: center;
+    width: 25%;
+}
+.box-left-sale p:nth-child(2){
+    width: 25%;
+    text-align: center;
+    font-size: .9rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+form input{
+    padding: 5px 10px;
+    background: rgba(0,0,0, 0.3);
+    border: 1px solid #da5427;
+    color: white;
+    margin: 5px;
+}
+form input:last-child{
+    background-color: #da5427;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+.mobile-box-sale img{
+    width: 100%;
+}
+.mobile-box-sale{
+    display: none;
+}
+.box-sale-2{
+    padding: 5%;
+    background-color: #f8f8f8;
+}
+.box-newest{
+    padding: 5%;    
+}
+.voucher{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.top-box{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding: 20px 30px;
+}
+.img-box-top{
+    width: 80px;
+    height: 80px;
+}
+.content-img-box{
+    width: calc(95% - 80px);
+    font-size: .9rem;
+}
+.content-img-box p{
+    margin: 0;
+}
+.content-img-box p:last-child{
+    padding-top: 5px;
+}
+.bottom-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bottom-box a{
+    color: black;
+    text-decoration: none;
+}
+.bottom-box p{
+    margin: 0;
+}
+.content-img-box a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+.img-box-top img{
+    width: 100%;
+    border-radius: 50%;
+    height: 100%;
+    border: 1px solid #ddd;
+}
+.card-voucher{
+    width: 32%;
+    background: url(https://img1.oto.com.vn/Static/Images/PartnerVoucher/web/bg-voucher-blue.png) center no-repeat;
+}
+.box-voucher{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-warning a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.btn-warning{
+    background-color: #da5427;
+    border: none;
+    padding: 10px 30px;
+}
+.swiper-container {
+    width: 100%;
+    height: 300px;
+}
+.swiper-slide{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box-swiper{
+    background: url(https://img1.oto.com.vn/Static/Images/PartnerVoucher/web/bg-voucher-blue-1.png) center no-repeat;
+    width: 19%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 40px;
+}
+.box-swiper p:nth-child(2){
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box-swiper p{
+    margin: 0;
+}
+.box-img{
+    width: 80px;
+    height: 80px;
+    margin: 0;
+    margin-bottom: 5%;
+}
+.box-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.container-wrapper{
+    padding: 2%;
+    background-color: #f8f8f8;
+}
+.box-swiper a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.box-swiper p:nth-child(4){
+    padding-top: 10px;
+}
+.box-swiper p:nth-child(3){
+    color: gray;
+    font-size: .9rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title-brand-2{
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.mobile-wrapper-content{
+    display: none;
+}
+.receive-reward{
+    background: url(https://img1.oto.com.vn/Static/Images/v3/web-banner-voucher-bg-middle.png) center no-repeat !important;
+    height: 50vh;
+    margin-bottom: 5%;
+}
+.receive-reward{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.title-receive-reward{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+::placeholder{
+    color: white;
+}
+.box-voucher-all{
+    padding: 2% 5%;
+}
+.list-voucher-click{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    border-bottom: 2px solid #ddd;
+    padding: 0;
+}
+.list-voucher-click li{
+    margin: 0px 15px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-bottom: 25px;
+    color: gray;
+}
+
+.voucher-items{
+    width: 32%;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #da5427;
+    padding: 20px;
+    border-radius: 1rem;
+    transition: all .5s;
+    margin: 20px 0px;
+}
+.voucher-items:hover{
+    border-color: black;
+}
+.top-voucher{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.border-items:after{
+    content: '';
+    background: url(https://img1.oto.com.vn/Static/Images/PartnerVoucher/web/line-voucher-bottom.jpg) no-repeat;
+    display: block;
+    height: 20px;
+    width: 100%;
+}
+.img-box-voucher-items{
+    width: 80px;
+    height: 80px;
+}
+.img-box-voucher-items img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.detail-items{
+    width: calc(95% - 80px);
+}
+.voucher-items a{
+    text-decoration: none;
+}
+.detail-items p:first-child{
+    font-size: .9rem;
+}
+.detail-items p:nth-child(2){
+    font-size: .85rem;
+    color: gray;
+}
+.detail-items p:last-child a{
+    color: black;
+    font-weight: bold;
+}
+.bottom-voucher, .voucher-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.voucher-1{
+    flex-wrap: wrap;
+}
+.bottom-voucher p{
+    margin: 0;
+}
+.click-change-color{
+    border-bottom: 2px solid #da5427;
+    color: black !important;
+}
+@media screen and (max-width: 1300px){
+    .box-left-sale p:first-child,.box-left-sale p:nth-child(2), form{
+        width: 30%;
+    }
+    .box-left-sale{
+        padding: 5%;
+    }
+    .box-sale{
+        height: 50vh;
+    }
+}
+@media screen and (max-width: 1070px){
+    .box-left-sale p:first-child,.box-left-sale p:nth-child(2), form{
+        width: 40%;
+    }
+    .top-box, .bottom-box{
+        padding: 20px 10px;
+    }
+    .btn-warning{
+        padding: 10px 15px;
+    }
+    .box-swiper p:nth-child(3){
+        font-size: .7rem;
+    }
+    .box-swiper p:nth-child(2){
+        font-size: 1rem;
+    }
+    .detail-items{
+        width: calc(95% - 65px);
+        line-height: 30px;
+    }
+    .img-box-voucher-items{
+        width: 65px;
+        height: 65px;
+    }
+    .detail-items p{
+        margin: 0;
+    }
+}
+@media screen and (max-width: 880px){
+    .top-box, .bottom-box{
+        padding: 10px;
+    }
+    .content-img-box{
+        font-size: .8rem;
+    }
+    .content-img-box a{
+        font-size: .9rem;
+    }
+    .receive-reward{
+        padding: 5%;
+        text-align: center;
+    }
+    .detail-items{
+        line-height: 25px;
+    }
+    .list-voucher-click{
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
+    .list-voucher-click li{
+        margin: 0px 10px;
+        padding-bottom: 25px;
+        width: 500px;
+        display: inline;
+    }
+}
+@media screen and (max-width: 800px){
+    .mobile-box-sale{
+        display: block;
+    }
+    .box-sale{
+        display: none;
+    }
+    .box-left-sale{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #003077;
+    }
+    .box-left-sale p:first-child, .box-left-sale p:nth-child(2), form{
+        width: 100%;
+    }
+    .box-left-sale {
+        padding: 2% 5%;
+    }
+    .img-box-sale{
+        width: 100%;
+        height: 120px;;
+    }
+    .img-box-sale img{
+        width: 100%;
+        height: 100%;
+    }
+    .box-voucher{
+        display: block;
+    }
+    .card-voucher{
+        width: 100%;
+        margin: 5% 0%;
+    }
+    .mobile-voucher{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content-img-box{
+        font-size: .9rem;
+    }
+    .bottom-box{
+        padding: 10px 0px;
+    }
+    .bottom-box p{
+        padding-left: 20px;
+    }
+    .mobile-wrapper{
+        display: none;
+    }
+    .mobile-wrapper-content{
+        display: block;
+        padding: 5% 0%
+    }
+    .swiper-slide{
+        flex-wrap: wrap;
+    }
+    .box-swiper{
+        width: 30%;
+        margin-top: 5%;
+    }
+    .voucher-1{
+        display: block;
+    }
+    .voucher-items{
+        width: 100%;
+    }
+    .mobile-voucher{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 500px){
+    .box-swiper{
+        width: 40%;
+    }
+}

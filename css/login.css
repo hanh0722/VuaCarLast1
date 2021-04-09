@@ -1,0 +1,52 @@
+.box-login{
+    box-shadow: 5px 5px 30px #888888;
+    padding: 25px;
+    border-radius: 10px;
+    width: 50%;
+    margin: 50px 0px;
+}
+.box-login input:active{
+    background-color: #ffffff;
+}
+.note-login{
+    line-height: 50px;
+}
+.box-login h3{
+    padding: 0;
+}
+.social button,
+.support-login a{
+    width: 150px;
+}
+.support-login a{
+    text-decoration: none;
+    font-size: 14px;
+}
+.social,
+.support-login{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+.btn-success-1{
+    width: 200px;
+}
+@media screen and (max-width: 1000px){
+    .box-login{
+        width: 75%;
+    }
+}
+@media screen and (max-width: 600px){
+    .box-login{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 450px){
+    .btn-success-1{
+        width: 150px;
+    }
+    .social button, .support-login a{
+        width: 100px;
+    }
+}

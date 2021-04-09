@@ -1,0 +1,43 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heading {
+    margin-top: 30px;
+    font-weight: 1000;
+    font-size: 24px;
+    line-height: 24px;
+    color: #222;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.questionname {
+    font: bold 18px/24px 'Roboto';
+    color: #1260ab;
+}
+
+.question-text a{
+    text-decoration: none;
+}
+.question-text p{
+    font-size: 16px;
+}
+.question-img{
+    display: none;
+}
+.container{
+    margin-top: 5%;
+}
+@media(min-width: 768px) {
+    .heading{
+        font-weight: 1000;
+        font-size: 24px;
+        line-height: 24px;
+        color: #222;
+        margin-bottom: 24px;
+        margin-top: 0;
+    }
+    .question-img{
+        display: block;
+    }
+}

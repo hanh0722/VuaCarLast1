@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.kinhnghiem{
+    padding: 20px 0;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+p{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: justify;
+}
+
+.kinhnghiem_banner{
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.kinhnghiem_header h5{
+    margin: 10px;
+    font-weight: bold;
+}
+.kinhnghiem_banner_left{
+    position: relative;
+    margin-top: 5px;
+}
+.new_content_tt{
+    display: none;
+}
+.kinhnghiem_banner_left h5{
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.kinhnghiem_banner_right_item{
+    position: relative;
+}
+.kinhnghiem_banner_right_item p{
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    font-size: .8rem;
+    background: rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+    color: white;
+}
+.kinhnghiem_content{
+    margin: 20px 0;
+}
+.kinhnghiem_content_list{
+    padding: 10px 0;
+}
+.text_content_header{
+    margin-bottom: 10px;
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-weight: bold;
+    text-overflow: ellipsis;
+}
+.kinhnghiem_content_item{
+    margin: 10px 0;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.xebanchay_img2{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.swiper-container7{
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+}
+.kinhnghiem_slide{
+    margin: 20px 0;
+}
+.kinhnghiem_slide_header{
+    margin-left: 10px;
+}
+.next1{
+    right: 0;
+    top: 50%;
+}
+.prev1{
+    left: 0;
+    top: 50%;
+}
+.swiper-button-prev::after,.swiper-button-next::after{
+    background-color: #f8f8f8;
+}
+.kinhnghiem_slide1{
+    background-color: #f8f8f8;
+    padding: 20px 0;
+}
+.swiper-container8{
+    position: relative;
+    overflow: hidden;
+}
+.kinhnghiem_slide_header h5{
+    font-weight: bold;
+    margin: 10px 0;
+}
+.xebanchay a{
+    margin-bottom: 10px;
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-weight: bold;
+    text-overflow: ellipsis;
+}
+.container-fluid{
+    background-color: white;
+}
+.logo-nav img{
+    height: auto;
+}
+.hienthi{
+    margin: 10px auto;
+    display: block;
+}
+.hien{
+    display: block !important;
+}
+.hienthithem{
+    display: none;
+}
+.kinhnghiem_right_item{
+    margin-bottom: 40px;
+}
+.kinhnghiem_right_header{
+    padding: 10px 20px;
+    background-color: chocolate;
+}
+
+.kinhnghiem_right_header h4{
+    font-weight: bold;
+    color: white;
+    font-size: 1.25rem;
+    margin: 0;
+}
+.kinhnghiem_right_body{
+    padding: 10px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.kinhnghiem_right_body a{
+    margin: 10px 0;
+    display: block;
+    font-weight: bold;
+}
+.right_body_item a{
+    margin-top: 0;
+    font-size: 14px;
+}
+.right_body_item{
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+.right_body_item:last-child{
+    border-bottom: none;
+}
+.kinhnghiem_right_ul li{
+    list-style: circle;
+}
+.kinhnghiem_right_ul{
+    padding-left: 20px;
+}
+.kinhnghiem_new_list li{
+    list-style: circle;
+    color: white;
+
+}
+.kinhnghiem_left_new{
+    padding: 10px 20px;
+    background-color: #da5427;
+}
+.kinhnghiem_new_header h5{
+    color: white;
+    font-weight: bold;
+}
+.kinhnghiem_new_list a{
+    color: white;
+}
+.swiper-wrapper a{
+    text-align: justify;
+}
+.kinhnghiem_slide_header h5{
+    margin: 20px 10px;
+}
+.text_content p:last-child{
+    font-size: .8rem;
+}
+.text_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+@media screen and (max-width: 993px){
+    .kinhnghiem_banner_right{
+        display: none;
+    }
+    .new_content_tt{
+        display: block;
+    }
+    .kinhnghiem_banner_left h5{
+        position: static;
+        color: black;
+        margin: 10px 0;
+        background: none;
+        padding: 0;
+    }
+    .kinhnghiem_right{
+        display: none;
+    }
+}
+@media screen and (max-width: 600px){
+    .kinhnghiem_banner_right{
+        display: none;
+    }
+    .text-center_p{
+        display: none;
+    }
+    .swiper-button-prev::after, .swiper-button-next::after, .swiper-button-next, .swiper-button-prev{
+        display: none;
+    }
+    
+}
+@media screen and (max-width: 400px){
+    .text-center_p{
+        display: none;
+    }
+}

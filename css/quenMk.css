@@ -1,0 +1,18 @@
+.box-quenmk{
+    box-shadow: 5px 5px 30px #888888;
+    padding: 50px;
+    border-radius: 10px;
+    width: 50%;
+    margin-bottom: 50px;
+}
+.box-quenmk input:active{
+    background-color: #ffffff;
+}
+.box-quenmk h4,
+.box-quenmk p{
+    padding: 0;
+}
+.box-quenmk p{
+    font-size: 14px;
+    text-transform: initial;
+}

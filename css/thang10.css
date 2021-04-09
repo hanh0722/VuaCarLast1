@@ -1,0 +1,299 @@
+.clear {
+    clear: both;
+}
+
+.container {
+    width: 1026px;
+    padding: 0 30px;
+    margin: auto;
+    position: relative;
+}
+
+.banner {
+    width: 100%;
+    position: relative;
+}
+
+.banner img,
+.img-blue img,
+.img img {
+    max-width: 100%;
+    display: block;
+    margin: auto
+}
+
+.box-footer .col-info {
+    width: 50%;
+    float: left;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000;
+}
+
+.box-footer .col-info ul {
+    list-style: none;
+    border-left: 7px solid #ff0000;
+    padding: 0 0 0 20px;
+    color: #000;
+    margin: 0 0 20px;
+}
+
+.box-footer {
+    margin-top: 65px;
+    padding-bottom: 65px;
+    display: inline-block;
+    width: 100%;
+}
+
+.box-footer .col-info:last-child {
+    text-align: right;
+}
+
+.box-footer .col-info p {
+    margin: 0 0 10px
+}
+
+.big-text {
+    font-size: 30px;
+    display: block;
+    position: relative;
+    color: #014367;
+    font-weight: 700;
+    font-style: italic;
+    margin-top: 70px;
+    line-height: 1.4;
+}
+
+.title {
+    text-align: center;
+    font-size: 28px;
+    display: block;
+    position: relative;
+    color: #014367;
+    font-weight: 700;
+    margin-top: 40px;
+    line-height: 1.6;
+}
+
+.big-text.top {
+    margin-top: -132px;
+    margin-bottom: 37px;
+    line-height: 1.6;
+}
+
+.container p {
+    line-height: 1.33;
+}
+
+.big-text:before {
+    content: '';
+    display: block;
+    width: 90px;
+    height: 79px;
+    background: url(https://img1.oto.com.vn/Static/Images/emagazine/DoanhSoThang10/quot.png);
+    position: absolute;
+    top: -10px;
+    left: -120px
+}
+
+.big-text.top:before {
+    top: 10px
+}
+
+.big-text:after {
+    top: 0;
+}
+
+.txt-asl {
+    top: 35px;
+    left: 0;
+    color: #fff;
+    position: absolute;
+    line-height: 1.4;
+}
+
+.img-blue .txt-asl {
+    top: 60px
+}
+
+.box-img-bl {
+    margin-top: 30px
+}
+
+.banner .hdt,
+.img-blue .hdt,
+.img .hdt,
+.hdt {
+    display: none;
+}
+
+@media only screen and (max-width: 1140px) {
+    .container {
+        width: 960px;
+        padding: 0 15px;
+    }
+
+    .big-text:before {
+        content: '';
+        display: block;
+        width: 60px;
+        height: 55px;
+        background: url(https://img1.oto.com.vn/Static/Images/emagazine/DoanhSoThang10/quot.png) no-repeat;
+        position: absolute;
+        top: 0;
+        left: -64px;
+        background-size: contain;
+    }
+
+    .img-blue .txt-asl {
+        top: 50px;
+    }
+
+    .big-text.top {
+        margin-top: -90px;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    body {
+        font-size: 16px;
+    }
+
+    .container {
+        width: 960px;
+        padding: 0 45px;
+        box-sizing: border-box;
+    }
+
+    .big-text {
+        font-size: 25px;
+        margin-top: 40px
+    }
+
+    .title {
+        font-size: 25px;
+    }
+
+    .big-text:before {
+        content: '';
+        display: block;
+        width: 30px;
+        height: 25px;
+        background: url(https://img1.oto.com.vn/Static/Images/emagazine/DoanhSoThang10/quot.png) no-repeat;
+        position: absolute;
+        top: 0;
+        left: -34px;
+        background-size: contain;
+    }
+
+    .box-footer .col-info {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .box-footer {
+        margin-top: 35px;
+        padding-bottom: 35px;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .banner .hmb,
+    .img-blue .hmb,
+    .img .hmb,
+    .hmb {
+        display: none;
+    }
+
+    .banner img {
+        width: 100%;
+    }
+
+    .banner .hdt,
+    .img-blue .hdt,
+    .img .hdt,
+    .hdt {
+        display: block;
+    }
+
+    body {
+        font-size: 15px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0 35px
+    }
+
+    .txt-asl {
+        position: relative;
+    }
+
+    .box-img-bl {
+        background: #000405 url(https://img1.oto.com.vn/Static/Images/emagazine/DoanhSoThang10/bg-blue.jpg) top center no-repeat;
+        background-size: contain;
+        margin-top: 30px
+    }
+
+    .img-blue .txt-asl {
+        top: 30px;
+    }
+
+    .img .txt-asl {
+        margin-bottom: -150px
+    }
+
+    .big-text:before {
+        content: '';
+        display: block;
+        width: 30px;
+        height: 25px;
+        background: url(https://img1.oto.com.vn/Static/Images/emagazine/DoanhSoThang10/quot.png) no-repeat;
+        position: absolute;
+        top: 0;
+        left: -34px;
+        background-size: contain;
+    }
+
+    .box-footer {
+        margin-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    .img-blue .txt-asl {
+        top: 20px;
+    }
+
+    .img .txt-asl {
+        margin-bottom: -60px
+    }
+
+    .big-text.top {
+        margin-top: -20px;
+        margin-bottom: 17px;
+    }
+
+    .big-text,
+    .title {
+        font-size: 18px;
+        margin-top: 20px
+    }
+
+    .container {
+        padding: 0 20px
+    }
+
+    .big-text:before {
+        content: '';
+        display: block;
+        width: 15px;
+        height: 10px;
+        background: url(https://img1.oto.com.vn/Static/Images/emagazine/DoanhSoThang10/quot.png) no-repeat;
+        position: absolute;
+        top: 0;
+        left: -15px;
+        background-size: contain;
+    }
+}
